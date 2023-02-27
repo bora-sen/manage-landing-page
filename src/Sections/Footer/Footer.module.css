@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .footer_container{
+        @apply bg-darker-blue text-white flex flex-col-reverse w-full justify-around lg:flex-row p-8 items-center
+    }
+
+
+    .footer_left {
+        @apply flex flex-col-reverse lg:flex-col
+    }
+
+    .footer_left ul {
+        @apply flex justify-around px-8 py-4
+    }
+    .footer_left ul > li > a > img {
+        @apply w-8 h-8
+    }
+    .footer_left img {
+        @apply mx-auto my-12 w-[14rem]
+    }
+
+
+
+    .footer_center {
+        @apply flex gap-8 justify-around px-4 text-xl mb-8
+    }
+    
+    .footer_center ul li {
+        @apply py-2 px-4
+    }
+
+
+
+    .footer_right {
+        @apply flex w-full justify-center lg:flex-col lg:justify-start lg:w-auto
+    }
+
+    .footer_inbox{
+        @apply flex gap-2 mb-12 
+    }
+    .footer_inbox input {
+        @apply text-xl py-4 px-3 rounded-full
+    }
+    .footer_inbox button {
+        @apply text-white bg-primary-red px-8 py-4 rounded-full font-bold
+    }
+}
