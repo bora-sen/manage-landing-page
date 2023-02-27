@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .explain_container {
+        @apply text-center md:flex mb-12 p-4 md:gap-24
+    }
+
+
+
+    .explain_header{
+        @apply font-bold text-6xl mb-12
+    }
+    .explain_disc{
+        @apply font-thin text-xl leading-10 mt-2 text-dark-grey-blue
+    }
+
+
+
+    .explain_card {
+        @apply my-8
+    }
+    
+    .explain_card p {
+        @apply font-thin leading-8 mt-2 text-dark-grey-blue md:text-left md:ml-24
+    }
+
+    .explain_card_header span {
+        @apply text-white font-bold py-4 px-8 bg-primary-red rounded-full
+    }
+
+    .explain_card_header {
+        @apply flex items-center gap-4 md:gap-8 bg-pale-red md:bg-transparent rounded-l-full md:text-lg
+    }
+
+
+
+}
