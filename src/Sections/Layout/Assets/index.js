@@ -1,0 +1,1 @@
+export {default as BackgroundPattern} from './bg-tablet-pattern.svg'
