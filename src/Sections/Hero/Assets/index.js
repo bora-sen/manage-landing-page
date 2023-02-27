@@ -1,0 +1,1 @@
+export {default as HeroIMG} from './illustration-intro.svg'

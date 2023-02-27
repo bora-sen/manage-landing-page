@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .hero_container {
+        @apply w-full flex flex-col-reverse text-center gap-8 p-4 md:flex-row md:items-center md:justify-around
+    }
+    .hero_left {
+        @apply w-full md:my-auto md:w-[34rem] md:text-left
+    }
+    .hero_right {
+        @apply w-full md:w-auto
+    }
+    .hero_left h2 {
+        @apply font-bold text-4xl sm:text-6xl
+    }
+    .hero_left p {
+        @apply text-lg text-dark-grey-blue leading-10 font-thin mt-4
+    }
+    .hero_left button {
+        @apply bg-primary-red text-white px-8 py-4 rounded-full shadow-sm shadow-primary-red mt-4
+    }
+}
