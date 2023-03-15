@@ -2,6 +2,21 @@
 
 This is my Manage Landing Page Project
 
+# Screenshots
+
+![](/website-ss-1.jpg)
+
+<br />
+
+![](/website-ss-2.jpg)
+
+<br />
+
+![](/website-ss-3.jpg)
+
+<br />
+
+
 ## Available Scripts
 
 In the project directory, you can run:
